@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context="com.example.vnspv.clientactivity.searchActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_trackbus_click_below"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="23dp"
+        android:padding="15dp"/>
+    <TextView
+        android:id="@+id/loctext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="23dp"
+        android:padding="15dp"
+        android:text="Fetching location cooordinates"
+        />
+    <Button
+        android:id="@+id/searchbtn"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:text="@string/track_your_bus"
+        android:textColor="#fff"
+        android:onClick="buttonclicked"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        />
+
+</LinearLayout>

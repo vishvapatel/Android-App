@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Txtsize">23sp</dimen>
+    <dimen name="button_txtsize">20sp</dimen>
+    <dimen name="btn_padding">10dp</dimen>
+    <dimen name="btn_margin">20dp</dimen>
+    <dimen name="txt_padding">15dp</dimen>
+    <dimen name="Txt_marginTop">90dp</dimen>
+</resources>

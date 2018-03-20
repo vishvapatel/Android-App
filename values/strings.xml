@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Trackbus_Driver</string>
+    <string name="hello_driver">Hello Driver!!</string>
+    <string name="Button_text">Get Location</string>
+    <string name="click_on_the_button_to_get_your_location">*Click on the button to get your location.</string>
+</resources>
